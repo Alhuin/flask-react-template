@@ -37,8 +37,8 @@ const App = () => {
 
   return (
     <HashRouter history={history}>
-        <TopMenu />
         <React.Suspense fallback={loading}>
+          <TopMenu />
           <Switch>
             <Route exact path={["/", "/home"]} component={props => <Home {...props}/>} />
             <Route exact path="/login" component={props => <Login {...props}/>} />
