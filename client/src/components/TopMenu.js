@@ -15,14 +15,14 @@ const TopMenu = () => {
     return (
         <nav className="navbar navbar-expand navbar-dark bg-dark">
             <Link to={"/"} className="navbar-brand">
-            AutoMatch
+            Project
             </Link>
 
             <div className="navbar-nav ml-auto">
                 {currentUser ? (
                     <>
                         <li className="nav-item">
-                            <Link to={"/home"} className="nav-link">Home</Link>
+                            <Link to={"/profile"} className="nav-link">Profile</Link>
                         </li>
                         <li className="nav-item">
                             <Link to={"/user"} className="nav-link">Settings</Link>

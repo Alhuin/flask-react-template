@@ -94,7 +94,7 @@ const Register = () => {
   };
 
   return (
-    <div className="col-md-12">
+    <div className="col-md-12" id={"register"}>
       <div className="card card-container">
         <img
           src="//ssl.gstatic.com/accounts/ui/avatar_2x.png"
